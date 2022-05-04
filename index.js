@@ -5,7 +5,7 @@ const ExplorerController = require("./lib/controllers/ExplorerController")
 
 //const explorers = Reader.readJsonFile("explorers.json");
 //console.log(explorers)
-console.log( ExplorerController.getExplorersByMission("java"))
+console.log( ExplorerController.applyValidationInNumber(15))
 //console.log(ExplorerService.getAmountOfExplorersByMission(explorers, "node"))
 //console.log(ExplorerService.getExplorersUsernamesByMission(explorers, "node"))
 //const explorer1 = {name: "Explorer1", score: 13}
